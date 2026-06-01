@@ -1,0 +1,44 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #0d0808;
+  color: #ffffff;
+} */
+
+.hero-gradient {
+  background: linear-gradient(135deg, #0d0808 0%, #0a632b 50%, #118949 100%);
+}
+
+.accent-green {
+  color: #118949;
+}
+
+.accent-cyan {
+  color: #19bcdf;
+}
+
+.accent-yellow {
+  color: #e6e711;
+}
+
+.btn-primary {
+  @apply bg-[#118949] hover:bg-[#0a632b] text-white transition-colors duration-200;
+}
+
+.btn-secondary {
+  @apply bg-[#19bcdf] hover:bg-[#148fa0] text-[#0d0808] transition-colors duration-200;
+}
+
+.section-title {
+  @apply text-4xl md:text-5xl font-bold mb-4 text-white;
+}
+
+.section-subtitle {
+  @apply text-lg text-gray-300 mb-8;
+}
