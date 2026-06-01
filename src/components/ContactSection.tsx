@@ -1,8 +1,8 @@
 'use client';
 
 import { useState } from 'react';
-import { Button, Input, Card, CardBody, Select, SelectItem, Textarea } from '@heroui/react';
-import { Mail, Phone, MapPin, Calendar, Users } from 'lucide-react';
+import { Button, Input, Card, CardBody, Textarea } from '@heroui/react';
+import { Mail, Phone, MapPin} from 'lucide-react';
 
 interface FormData {
   name: string;

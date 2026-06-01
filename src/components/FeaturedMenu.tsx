@@ -1,7 +1,7 @@
 'use client';
 
 import { Card, CardBody, CardHeader, Button, Chip } from '@heroui/react';
-import { Flame, Leaf } from 'lucide-react';
+import { Leaf } from 'lucide-react';
 
 interface MenuItem {
   id: number;
