@@ -102,7 +102,7 @@ export function ContactSection() {
                   <div className="flex flex-col items-center justify-center bg-restaurant-forest-green/20 rounded-lg sm:w-20 w-[100%] h-20 p-4">
                     <Icon className="w-8 h-8 text-restaurant-cyan" />
                   </div>
-                  <div className="flex flex-col justify-center sm:items-start">
+                  <div className="flex flex-col justify-center pb-4 sm:items-start">
                     <h3 className="text-white font-semibold text-lg">{info.label}</h3>
                     <p className="text-gray-400 px-2">{info.value}</p>
                   </div>
